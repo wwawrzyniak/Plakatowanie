@@ -29,3 +29,8 @@ Press any button to run an algorithm on provided file and check it with the answ
 
 You can also perform the algorithm on all data sets by clicking load all.
 
+
+
+Copyrights
+<a href="https://lifeboat.com/blog/2020/05/how-earthquake-proof-buildings-are-designed" target="_blank">Background gif</a>
+
