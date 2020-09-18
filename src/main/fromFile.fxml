@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="mainAP" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.FromFileController">
+   <children>
+      <Label fx:id="congratulations" layoutX="14.0" layoutY="127.0" prefHeight="19.0" prefWidth="243.0" styleClass="textBig" text=" ">
+         <opaqueInsets>
+            <Insets bottom="30.0" />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="outputResult" alignment="CENTER" contentDisplay="CENTER" layoutX="429.0" layoutY="84.0" prefHeight="19.0" prefWidth="125.0" styleClass="textBig" text=" ">
+         <opaqueInsets>
+            <Insets bottom="30.0" />
+         </opaqueInsets>
+      </Label>
+      <Button fx:id="main" layoutX="60.0" layoutY="272.0" mnemonicParsing="false" onAction="#back" styleClass="btn" text="Back" />
+      <Label fx:id="inputResult" alignment="CENTER" contentDisplay="CENTER" layoutX="228.0" layoutY="84.0" prefHeight="19.0" prefWidth="117.0" styleClass="textBig" text="">
+         <opaqueInsets>
+            <Insets bottom="30.0" />
+         </opaqueInsets>
+      </Label>
+      <Button fx:id="loadInput" layoutX="227.0" layoutY="39.0" mnemonicParsing="false" onAction="#loadInput" styleClass="btn" text="Load input file" />
+      <Button layoutX="429.0" layoutY="39.0" mnemonicParsing="false" onAction="#loadOutput" styleClass="btn" text="Load output file" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+.btn {
+    -fx-font: 16px "Serif";
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+    -fx-alignment: CENTER;
+}
+
+.mainAP{
+    -fx-background-image: url("resources/b.gif");
+}
+
+.textBig{
+    -fx-font: 38px "Serif";
+}
+
+.txt{
+    -fx-font: 16px "Serif";
+}

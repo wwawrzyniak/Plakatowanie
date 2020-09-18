@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="mainAP" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MainWindowController">
+   <children>
+      <Button fx:id="fromFile" layoutX="33.0" layoutY="233.0" mnemonicParsing="false" onAction="#joinAction" prefWidth="100" styleClass="btn" text="From file" />
+      <Button fx:id="fromButton" layoutX="33.0" layoutY="340.0" mnemonicParsing="false" onAction="#joinAction" prefWidth="100" styleClass="btn" text="From app" />
+      <Button fx:id="enterInput" layoutX="33.0" layoutY="287.0" mnemonicParsing="false" onAction="#joinAction" prefWidth="100" styleClass="btn" text="From input" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#000203a8" height="102.0" layoutX="58.0" layoutY="22.0" stroke="BLACK" strokeType="INSIDE" width="480.0" />
+      <Text fill="WHITE" layoutX="242.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weronika Wawrzyniak" />
+      <Text fill="WHITE" layoutX="147.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textBig" text="PLAKATOWANIE" wrappingWidth="306.0007781982422">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
