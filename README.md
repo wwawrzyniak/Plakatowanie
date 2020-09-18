@@ -1,5 +1,5 @@
 # Plakatowanie
-Small application for checking <a href="https://szkopul.edu.pl/problemset/problem/au-E9FH96-3U9rCKhcNsD5n9/site/?key=statement" target="_blank">Plakatowanie</a>.
+Small application for performing <a href="https://szkopul.edu.pl/problemset/problem/au-E9FH96-3U9rCKhcNsD5n9/site/?key=statement" target="_blank">Plakatowanie</a> algorithm and verifying results.
 
 ## Interface - choose one of three ways to load data
 
