@@ -2,31 +2,20 @@ package main;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
-import javafx.scene.control.Control;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 import java.io.*;
-import java.util.Stack;
+
 
 public class FromFileController extends Model{
     @FXML
     AnchorPane ap;
 
     @FXML
-    Label inputResult;
-
-    @FXML
-    Label outputResult;
-
-    @FXML
-    Label congratulations;
+    Label inputResult, outputResult,congratulations;
 
     File selectedFile;
     FileChooser fileChooser = new FileChooser();
